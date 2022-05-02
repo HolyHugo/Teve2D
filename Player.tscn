@@ -40,8 +40,7 @@ tracks/0/keys = {
 
 [sub_resource type="Animation" id=7]
 resource_name = "open"
-length = 0.5
-loop = true
+length = 0.6
 tracks/0/type = "value"
 tracks/0/path = NodePath("Sprite:frame")
 tracks/0/interp = 1
@@ -49,10 +48,10 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4 ),
-"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
 "update": 1,
-"values": [ 1, 2, 3, 2, 1 ]
+"values": [ 1, 2, 3, 2, 1, 0 ]
 }
 
 [sub_resource type="Animation" id=4]
@@ -107,3 +106,5 @@ anims/left = SubResource( 6 )
 anims/open = SubResource( 7 )
 anims/right = SubResource( 4 )
 anims/up = SubResource( 5 )
+
+[node name="IdleTimer" type="Timer" parent="."]

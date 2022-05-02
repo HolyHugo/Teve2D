@@ -1,0 +1,37 @@
+[gd_scene format=2]
+
+[node name="GUI" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Top" type="ColorRect" parent="CanvasLayer"]
+margin_left = 6.0
+margin_top = 139.0
+margin_right = 37.0
+margin_bottom = 142.0
+rect_pivot_offset = Vector2( 78, 9 )
+color = Color( 0, 0, 0, 1 )
+
+[node name="Mana" type="ColorRect" parent="CanvasLayer"]
+margin_left = -477.043
+margin_top = 430.308
+margin_right = -276.043
+margin_bottom = 440.308
+rect_rotation = -90.0
+rect_pivot_offset = Vector2( 207.327, -294.693 )
+color = Color( 0.203922, 0.109804, 0.360784, 1 )
+
+[node name="Health" type="ColorRect" parent="CanvasLayer"]
+margin_left = 8.0
+margin_top = 343.0
+margin_right = 209.0
+margin_bottom = 353.0
+rect_rotation = -90.0
+color = Color( 0.568627, 0.0431373, 0.0431373, 1 )
+
+[node name="bot" type="ColorRect" parent="CanvasLayer"]
+margin_left = 6.0
+margin_top = 343.0
+margin_right = 37.0
+margin_bottom = 346.0
+color = Color( 0, 0, 0, 1 )
